@@ -8,9 +8,12 @@ public class addition{
         system.out.println("Enter the second number");
         int b = scanner.nextInt();
 
-        int sum = a + b;
+        system.out.println("Enter the third number");
+        int c = scanner.nextInt();
 
-        system.out.println("The sum of"+a+"and"+b+"is"+sum);
+        int sum = a + b + c;
+
+        system.out.println("The sum of"+a+","+b+"and"+c+"is"+sum);
 
         scanner.close();
     }
